@@ -1,0 +1,35 @@
+.unicode-table {
+  /* font-family: sans-serif; */
+  font-size: 12pt !important;
+  line-height: 1.5em;
+  letter-spacing: 0.025em;
+  max-width: 100%;
+  overflow: hidden;
+  padding: 5px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.unicode-table__table {
+  max-width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.unicode-table__name {
+  font-weight: 600;
+}
+.unicode-table__value {
+  background: darkgrey;
+  color: white;
+}
+
+.unicode-table__char-matrix {
+  max-width: 100%;
+  overflow: auto;
+}
+
+.unicode-table__char-matrix__cell {
+  padding: 2px;
+  font-size: 10px;
+}
